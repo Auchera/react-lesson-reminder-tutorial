@@ -1,0 +1,29 @@
+.main{
+    background: rgb(224,224,224);
+    background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(60,60,69,1) 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+/* components/lessoncardmodule.css */
+/* components/lessoncardmodule.css */
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sütun oluşturur */
+    gap: 5px; /* Kartlar arasındaki boşluk */
+    margin: 20px; /* Çevredeki boşluk */
+  }
+  
+  .card {
+    background-color: #758ba1; /* Kart arka plan rengi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
